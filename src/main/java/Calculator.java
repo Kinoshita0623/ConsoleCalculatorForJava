@@ -65,6 +65,7 @@ public class Calculator {
                     brackets = false;
                 }
 
+
             }*/else if(!stack.empty() && orderOperator(text) > orderOperator(stack.peek()) ){
 
                 stack.push(text);
