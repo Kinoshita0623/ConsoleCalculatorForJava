@@ -66,6 +66,7 @@ public class Calculator {
                 }
 
             }*/else if(!stack.empty() && orderOperator(text) > orderOperator(stack.peek()) ){
+
                 stack.push(text);
                 //System.out.println("プッシュ１:" + orderOperator(text));
             }else if(!stack.empty() && orderOperator(text) <= orderOperator(stack.peek())){
